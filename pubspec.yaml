@@ -1,0 +1,67 @@
+name: ai_learning
+description: 个性化AI辅助学习平台
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # 数据库连接 - SQL Server
+  mssql_connection: ^2.0.1
+  
+  # 状态管理
+  provider: ^6.0.5
+  
+  # UI组件
+  material_design_icons_flutter: ^7.0.7296
+  flutter_staggered_grid_view: ^0.7.0
+  
+  # 工具库
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  intl: ^0.18.1
+  
+  # 图表
+  fl_chart: ^0.65.0
+  
+  # 网络
+  http: ^1.1.0
+  
+  # 文件处理
+  file_picker: ^6.1.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  
+  fonts:
+    - family: HarmonyOS_Sans
+      fonts:
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Regular.ttf
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Black.ttf
+          weight: 700
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Bold.ttf
+          weight: 600
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Medium.ttf
+          weight: 500
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Regular.ttf
+          weight: 400
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Light.ttf
+          weight: 300
+        - asset: assets/fonts/HarmonyOS_Sans_SC_Thin.ttf
+          weight: 200

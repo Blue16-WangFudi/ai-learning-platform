@@ -1,0 +1,16 @@
+127.0.0.1:9859
+sa
+KblS3rv3rP@sASw0rd!2098
+Server=localhost;Database=master;Trusted_Connection=True;
+
+
+This is the sample code to connect to the database:
+   _sqlConnection
+        .connect(
+            ip: "127.0.0.1",
+            port: "9859",
+            databaseName: "AILearningPlatform",
+            username: "sa",
+            password: "KblS3rv3rP@sASw0rd!2098")
+
+help me to modify the related code.
